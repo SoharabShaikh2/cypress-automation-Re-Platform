@@ -23,3 +23,10 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+import 'cypress-axe';
+
+// Cypress.Commands.add('checkA11y', (context = null, options = null, violationCallback = null, skipFailures = false) => {
+//     cy.injectAxe();
+//     cy.checkA11y(context, options, violationCallback, skipFailures);
+// });
