@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+
+# Cypress configuration and reports
+cypress/screenshots/
+cypress/videos/
+cypress/reports/
+
+# Cypress cache
+.cache/
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Yarn lock file (if you're using npm, but include if using Yarn)
+yarn.lock
+
+# Cypress output and run artifacts
+cypress/results/
+cypress/json/
+cypress/output/
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Miscellaneous
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*.bak
